@@ -29,6 +29,7 @@
   }
   .section-3-item {
     width: 100%;
+    min-width: 300px;
   }
   .section-9-item-card + div {
     font-size: 1rem;
