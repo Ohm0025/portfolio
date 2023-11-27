@@ -1,0 +1,45 @@
+@media only screen and (max-width: 870px) {
+  .section-8-right .inputgroup {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .section-8-right .inputgroup input,
+  .section-8-right .inputgroup select {
+    width: 100%;
+  }
+  .section-8-right .inputgroup textarea {
+    min-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .head-link > a > b {
+    font-size: 0.76rem;
+  }
+
+  .section-8-left > div:nth-child(3) > div > div > span:nth-child(2) {
+    font-size: 0.8rem;
+  }
+  .section-2-bottom > div {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .section-3-row {
+    flex-wrap: wrap;
+  }
+  .section-3-item {
+    width: 100%;
+  }
+  .section-9-item-card + div {
+    font-size: 1rem;
+  }
+  .section-9-item-card {
+    font-size: 0.6rem;
+  }
+  .section-9-item-card + div + div > a {
+    font-size: 0.65rem;
+  }
+  .section-4 {
+    gap: 5rem;
+  }
+}

@@ -1,0 +1,80 @@
+@media only screen and (max-width: 686px) {
+  .top-side {
+    padding: 16px 6px;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .web-logo {
+    width: 15px;
+    height: 10px;
+  }
+  .head-link {
+    margin-left: 2rem;
+  }
+  .head-link > a > b {
+    font-size: 0.7rem;
+  }
+  .foot-link > b {
+    font-size: 0.7rem;
+  }
+  .foot-link > div > a {
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+    font-size: 0.6rem;
+  }
+  .like-box {
+    width: 500px;
+    left: -50px;
+  }
+  .like-box > small {
+    text-align: center;
+  }
+  .group-user-pic > a {
+    width: 20px;
+    height: 20px;
+  }
+  .group-user-pic > a > i {
+    font-size: 10px;
+  }
+  .group-user-pic > a:not(:first-child) {
+    margin-left: -9px;
+  }
+  .section-6 {
+    margin: 20px auto;
+    gap: 25px;
+  }
+  .section-2 {
+    align-items: center;
+    margin-top: 100px;
+  }
+  .section-2-top {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .section-2-bottom {
+    margin-top: 100px;
+  }
+  .section-2-top > div:nth-child(2) {
+    align-items: center;
+  }
+  .section-2-top > div:nth-child(2) > b {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .box-aboutme {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-aboutme > div > b,
+  .box-aboutme > div > small {
+    text-align: center;
+  }
+  .box-aboutme > div > small {
+    margin: 0 auto;
+  }
+}
